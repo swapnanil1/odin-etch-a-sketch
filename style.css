@@ -1,9 +1,11 @@
-#cubes {
+.cubes {
   border: 2px solid white;
   padding: auto;
-  background-color: lightgray;
+  background-color: rgb(105, 105, 105);
 }
-
+* {
+  background-color: rgb(24, 24, 24);
+}
 #master {
   display: flex;
   justify-content: center;
